@@ -1,0 +1,723 @@
+*{
+    margen: 0;
+    relleno: 0;
+    tamaño de la caja: caja de borde;
+}
+
+html{
+    tamaño de fuente: 62.5%;
+    /* 1.5rem es 15px */
+    /* 2rem es igual a 20px */
+}
+
+cuerpo{
+    ancho: 100%;
+    altura: automático;
+}
+
+
+:raíz{
+    --titleButton-blue: #0046CB;
+    --azul desteñido: #0047cb25;
+    --mainTitle-blue: #003B74;
+    --azul claro: #009AEB;
+    --azul pesado: #3168DB;
+    --solo amarillo: #FFD100;
+    --amarillo desteñido: #ffd00018;
+    --solo blanco: #FFFFFF;
+    --Texto gris: #8591A5;
+}
+/* encabezado */
+. navegación principal{
+    /* borde: rojo sólido; */
+    pantalla: flex;
+    justificar-contenido: espacio-uniformemente;
+    align-items: centro;
+    ancho: 100%;
+    relleno: 18px 0px 16px;
+    
+    color de fondo: var(--just-white);
+}
+. main-nav--menu{
+    posición: pariente;
+    índice z: 1;
+    pantalla: flex;
+    margen derecho: 30px;
+    justificar-contenido: espacio-alrededor;
+    align-items: centro;
+}
+
+. main-nav--menu li{
+    margen: 10px;
+    estilo de lista: ninguno;
+    relleno: 0px 35px 0px 35px;
+    /* relleno-izquierda: 130px; */
+    familia de fuentes: Verdana, Ginebra, Tahoma, sans-serif;
+    tamaño de fuente: 1.5rem;
+    
+    font-weight: negrita;
+}
+
+. main-nav--menu li a {
+    texto-decoración: ninguno;
+    color: var(--Texto-gris);
+}
+
+#logotipo de navegación{
+    color: azul;
+    tamaño de fuente: grande;
+    peso de fuente: 700;
+    tamaño de fuente: 2.5rem;
+    relleno-izquierda: 30px;
+}
+
+#buster{
+    color: var(--just-white);
+    color de fondo: var(--titleButton-blue);
+    relleno: 11px 20px;
+    radio de borde: 5px;
+    box-shadow: 1.3px 6px 27px var(--Texto-gris);
+}
+
+. encabezado-contenedor{
+    /* borde: verde sólido; */
+        pantalla: flex;
+        flex-direction: fila;
+        ancho: 100%;
+        altura: automático; 
+}
+
+
+. encabezado-contenedor--izquierda{
+    /* justificar-contenido: centro; */
+    /* borde: rojo sólido; */
+    /* ancho: 490px; */
+    ancho: 55%;
+    relleno: 100px;
+    
+    /* margen: 76px 90px 30px; */
+    
+}
+
+. encabezado-contenedor--izquierda h1{
+    color: var(--mainTitle-blue);
+    tamaño de fuente: 5.5rem;
+    margen-fondo: 15px;
+    margen superior: -30px;
+    
+}
+
+. encabezado-contenedor--izquierda p{
+    color: var(--Texto-gris);
+    tamaño de fuente: 1.5rem;
+    peso de fuente: 600;
+    text-align: justificar;
+    margen izquierdo: 6px;
+}
+
+. encabezado-contenedor--derecha{
+    /* borde: amarillo sólido; */
+    fondo: gradiente lineal (a la derecha, var (--azul claro) 7%, var (--azul pesado) 100%);
+    ancho: 45%;
+    /* margen izquierdo: 170px; */
+}
+
+. enfermera1{
+    ancho: 390px;
+    altura: 550px;
+    posición: pariente;
+    /* índice z: 0; */
+    arriba: -1px;
+    izquierda: 99px;
+    
+}
+
+. contenedor-izquierda--iconos{
+    pantalla: flex;
+    flex-direction: fila;
+    justify-content: flex-start;
+    relleno: 30px 90px 30px 0px;
+    margen izquierdo: 0px;
+}
+
+. icono-escudo--texto{
+    pantalla: flex; 
+}
+
+. icono-escudo--texto p{
+    posición: pariente;
+    tamaño de fuente: 1.3rem;
+    peso de fuente: 600;
+    color: var(--mainTitle-blue);
+    margen derecho: 50px;
+    
+}
+
+. fa-user-shield, . fa-estrella{
+    color: oro;
+    color de fondo: var(--faded-yellow);
+    relleno: 3.6px;
+    box-shadow: 0px 1px 5px var(--just-yellow);
+    align-self: centro;
+    margen derecho: 11px;
+}
+
+/* cabecera inferior */
+. encabezado-contenedor--fondo{
+    /* borde: sólido rgb(0, 153, 255); */
+    pantalla: flex;
+    flex-direction: columna;
+    posición: absoluta;
+    abajo: 10px;
+    izquierda: 200px;
+    ancho: 60%;
+    color de fondo: rgba (255, 255, 255, 0.966);
+    box-shadow: 8px 20px 72px var (--faded-blue);
+    radio de borde: 5px;
+    relleno: 22px 18px 22px;
+}
+
+. contenedor-fondo-programación{
+    /* borde: rojo sólido; */
+    pantalla: flex;
+    posición: absoluta;
+    abajo: 110px;
+    /* izquierda: -30px; */
+    
+}
+
+. programación inferior-- contenido{
+    pantalla: flex;
+}
+
+. bottom-schedule--content p{
+    posición: pariente;
+    tamaño de fuente: 1.9rem;
+    peso de fuente: 600;
+    color: var(--mainTitle-blue);
+    margen derecho: 50px;
+}
+. fa-reloj{
+    color: var(--titleButton-blue);
+    color de fondo: var(--faded-blue);
+    box-shadow: 0px 1px 5px var(--titleButton-blue);
+    relleno: 8px 3px 8px;
+    align-self: centro;
+    margen derecho: 11px;
+    margen izquierdo: 12px;
+}
+
+. bottom-info--ldv{
+    /* borde: azul oscuro sólido; */
+    pantalla: flex;
+}
+
+. info-ldv--location, . info-ldv--fecha,
+. info-ldv--type{
+pantalla: flex;
+}
+
+. bottom-info--ldv p{
+    posición: pariente;
+    tamaño de fuente: 1.6rem;
+    peso de fuente: 500;
+    color: var(--Texto-gris);
+    margen derecho: 50px;
+}
+
+. fa-location-dot,
+. fa-días-calendario,
+. fa-jeringa{
+    color: var(--titleButton-blue);
+    color de fondo: var(--faded-blue);
+    box-shadow: 0px 1px 5px var(--titleButton-blue);
+    relleno: 4px 3px 4px;
+    align-self: centro;
+    margen derecho: 11px;
+    margen izquierdo: 12px;
+}
+
+. fa-jeringa{
+    margen izquierdo: 38px;
+}
+
+. bottom-info--datos{
+    pantalla: flex;
+    /* justify-content: flex-start; */
+}
+
+. bottom-info--data p{
+    color: var(--mainTitle-blue);
+    peso de fuente: 900;
+    tamaño de fuente: 1.7rem;
+    margen: 0px 5.7px 0px;
+    relleno-izquierda: 35px;
+    acolchado-top: 7px;
+}
+
+#Enviar{
+    color: var(--just-white);
+    color de fondo: var(--titleButton-blue);
+    relleno: 11px 40px;
+    radio de borde: 5px;
+    box-shadow: 1.3px 1px 27px var (--Texto-gris);
+    texto-decoración: ninguno;
+    posición: absoluta;
+    izquierda: 555px;
+    abajo: 25px;
+    peso de fuente: 600;
+    tamaño de fuente: 1.56rem;
+}
+
+/* marcas principales */
+. principales marcas{
+    /* borde: rojo sólido; */
+    pantalla: flex;
+    justificar-contenido: espacio-alrededor;
+    relleno: 27px 0px 17px;
+    margen superior: 30px;
+    opacidad: 0.4;
+}
+
+/* razones principales */
+. principales razones{
+    /* borde: rojo sólido; */
+    altura: 720px;
+    ancho: 100%;
+    relleno: 100px 100px 0px;
+}
+
+. principales-razones--título h2{
+    tamaño de fuente: 3rem;
+    color: var(--mainTitle-blue);
+    
+}
+
+. principales-razones--título p{
+    color: var(--Texto-gris);
+    tamaño de fuente: 1.5rem;
+    peso de fuente: 600;
+    margen superior: 27px;
+}
+
+. principales razones--tarjetas{
+    /* borde: verde sólido; */
+    pantalla: flex;
+    justificar-contenido: espacio-entre;
+    relleno: 50px 12px;
+}
+
+. principales razones--tarjetas h4{
+    tamaño de fuente: mediano;
+    color: var(--mainTitle-blue);
+    margen superior: 13px;
+}
+
+. principales-razones--tarjetas p{
+    margen superior: 13px;
+    color: var(--Texto-gris);
+    peso de fuente: 600; 
+    tamaño de fuente: 1.6rem;
+}
+
+
+. razones-cards__one, . razones-cards__two,
+. razones-cards__three, . razones-cards__four{
+    borde: rgba sólido (220, 220, 220, 0.315);
+    radio de borde: 9px;
+    ancho: 240px;
+    altura: 300px;
+    relleno: 20px;
+}
+
+. fa-arrow-trend-down,
+. fa-escudo,
+. fa-usuarios,
+. fa-notes-medical{
+    color: var(--heavy-blue);
+    color de fondo: var(--faded-blue);
+    radio de borde: 4px;
+    relleno: 5px;
+}
+
+
+. preparaciones principales--contenedor{
+    /* borde: darkorange sólido; */
+    /* relleno: 12px; */
+    pantalla: flex;
+    flex-direction: fila;
+    align-items: flex-end;
+    altura: 600px;
+    /* acolchado-top: 30px; */
+    
+}
+
+
+. preparaciones-derecha{
+    /* borde: turquesa sólida; */
+    ancho: 100%;
+    pantalla: flex;
+    flex-direction: columna;
+    altura: 600px;
+    margen-fondo: 60px;
+    
+}
+
+. main-preparations--title{
+    align-self: centro;
+}
+
+. main-preparations--title h2{
+    color: var(--mainTitle-blue);
+    tamaño de fuente: 3rem;
+    margen superior: 20px;
+    
+}
+. principales-preparaciones--título p{
+    color: var(--Texto-gris);
+    tamaño de fuente: 1.5rem;
+    peso de fuente: 600;
+    margen: 23px 70px 30px 0px;
+}
+. main-preparaciones--info{
+    /* borde: violeta sólido; */
+    pantalla: flex;
+    flex-direction: fila-reversa;
+    align-self: centro;
+    relleno: 12px 80px 0px;
+}
+
+/* segunda sección */
+
+/*
+.main-preparations--info{
+ pantalla: flex;
+ flex-direction: columna;
+    align-items: flex-end;
+ justificar-contenido: centro; 
+}*/
+
+/*.preparations-cards{
+ borde: rebeccapurple sólido; 
+}*/
+
+. preparaciones-tarjetas h5{
+    color: var(--mainTitle-blue);
+    tamaño de fuente: mediano;
+    pantalla: bloque en línea;
+    margen izquierdo: 9px;
+    peso de fuente: 600;
+}
+
+. preparaciones-tarjetas p{
+    color: var(--Texto-gris);
+    tamaño de fuente: mediano;
+    acolchado-parte superior: 6px;
+    relleno-izquierda: 39px;
+}
+
+
+. fa-shield-virus,
+. fa-cuadrado-xmark,
+. fa-cuadrado-sondeo-vertical,
+. fa-cuadrado-check,
+. fa-corazón{
+    color: var(--heavy-blue);
+    color de fondo: var(--faded-blue);
+    radio de borde: 4px;
+    relleno: 5px;
+}
+
+. preparaciones-cards__one,
+. preparaciones-cards__two,
+. preparaciones-cards__three,
+. preparaciones-cards__four,
+. preparaciones-cards__five{
+    relleno: 12px;
+    borde: rgba sólido (220, 220, 220, 0.315);
+    radio de borde: 9px;
+    margen-fondo: 12px;
+}
+
+. preparaciones-cards__two{
+    color de fondo: rgba (255, 255, 255, 0.966);
+    box-shadow: 0px 1.2px 12px var (--faded-blue);
+}
+
+. fa-sort-up{
+    color: var(--Texto-gris);
+}
+
+. fa-sort-down,
+. fa-sort-up{
+    pantalla: flex;
+    flex-direction: fila-reversa;
+    align-self: flex-end;
+}
+
+#sombra{
+    color: var(--titleButton-blue);
+    color de fondo: var(--faded-blue);
+    box-shadow: 0px 1px 5px var(--titleButton-blue);
+}
+
+
+/* tercera setcion */
+
+. emergency-info--right{
+    ancho: 45%;
+    /* borde: tomate sólido; */
+    /* altura: 0px */
+}
+
+
+    /* ancho: 100%; */
+    /* pantalla: flex;
+ flex-direction: columna;
+ altura: automático;
+ margen-fondo: 60px; */
+
+
+. principal-emergencia{
+    /* borde: #FFD100 sólido; */
+    relleno: 12px;
+    margen superior: 150px;
+}
+
+. main-emergency--info{
+    /* borde: verde amarillento sólido; */
+    relleno: 12px;
+    pantalla: flex;
+}
+
+. emergency-info--izquierda{
+    /* borde: violeta sólido; */
+    ancho: 55%;
+}
+
+. principal-emergencia--título{
+    relleno-izquierda: 70px;
+    /* parte inferior: 90px; */
+}
+
+. main-emergency--tittle h2{
+    color: var(--mainTitle-blue);
+    tamaño de fuente: 3rem;
+    margen-fondo: 20px;
+}
+
+. main-emergency--tittle p{
+    color: var(--Texto-gris);
+    peso de fuente: 600;
+    tamaño de fuente: mediano;
+
+}
+
+
+
+. tarjetas de emergencia{
+    /* borde: azul pizarra maciza; */
+    /* relleno: 12px; */
+    pantalla: cuadrícula;
+    cuadrícula-plantilla-columnas: 30px 30px;
+    cuadrícula-plantilla-filas: 30px 30px;
+    brecha de cuadrícula: 245px;
+    altura: 490px;
+    justify-content: fin;
+    margen superior: 30px;
+    margen izquierdo: 30px;
+    ancho: 50%;
+    
+}
+
+. cards__one de emergencia,
+. cards__two de emergencia,
+. cards__three de emergencia,
+. cards__four de emergencia{
+    /* borde: salmón sólido; */
+    /* relleno: 100%; */
+    ancho: 250px;
+    altura: 180px;
+    /* align-self: centro; */
+    color de fondo: var(--just-white);
+    relleno: 30px;
+    borde: rgba sólido (220, 220, 220, 0.315);
+    radio de borde: 9px;
+    margen-fondo: 12px;
+    /* margen: 30px 0px 30px; */
+}
+
+. tarjetas-uno--arriba,
+. tarjetas-dos--arriba,
+. tarjetas-tres--arriba,
+. tarjetas-cuatro--arriba,
+. tarjetas-uno--abajo,
+. tarjetas-dos--abajo,
+. tarjetas-tres--abajo,
+. tarjetas-cuatro--abajo{
+    /* borde: chartreuse sólido; */
+    /* ancho: 50%; */
+}
+
+. tarjetas-uno--abajo,
+. tarjetas-dos--abajo,
+. tarjetas-tres--abajo,
+. tarjetas-cuatro--abajo{
+    /* ancho: 129px; */
+    ancho: automático;
+    margen superior: 25px;
+
+    color: var(--mainTitle-blue);
+    color de fondo: var(--faded-blue);
+    relleno: 11px 20px;
+    radio de borde: 5px;
+
+    text-align: centro;
+}
+
+. tarjetas-dos--abajo{
+    color de fondo: var(--titleButton-blue);
+    box-shadow: 1.3px 6px 27px var(--Texto-gris);
+    /* radio de borde: 5px; */
+
+}
+
+. tarjetas de emergencia h5{
+    pantalla: bloque en línea;
+    tamaño de fuente: mediano;
+    peso de fuente: 600;
+}
+
+. tarjetas de emergencia p{
+    tamaño de fuente: pequeño;
+    color: var(--Texto-gris);
+    peso de fuente: 600;
+    relleno-izquierda: 35px;
+}
+
+. tarjetas de emergencia a {
+    texto-decoración: ninguno;
+    
+}
+
+#emeoptions{
+    text-align: centro;
+    tamaño de fuente: 1.56rem;
+    peso de fuente: 600;
+    color: var(--mainTitle-blue);
+}
+
+#chatnow{
+    peso de fuente: 600;
+    text-align: centro;
+    tamaño de fuente: 1.56rem;
+    color: var(--just-white);
+}
+
+. fa-teléfono-volumen,
+. fa-comment-dots,
+. fa-video,
+. fa-sobre{
+    color: var(--titleButton-blue);
+    color de fondo: var(--faded-blue);
+    radio de borde: 4px;
+    relleno: 5px;
+    margen derecho: 5px;
+}
+
+/* pie de página */
+
+pie de página{
+    /* borde: verde sólido; */
+    relleno: 5px;
+    margen superior: 90px;
+    ancho: 100%;
+    
+}
+
+/* .footer-sections{
+ borde: fucsia sólido;
+ relleno: 5px; 
+}*/
+/* .footer-sections-up{
+ borde: ladrillo de fuego sólido;
+ relleno: 5px;
+} */
+
+. sections-up--info{
+    /* borde: oro macizo; */
+    pantalla: flex;
+    /* align-content: centro; */
+    /* alinear-elementos: estirar;
+ justificar-contenido: centro; */
+    relleno: 30px;
+    color de fondo: var(--faded-blue);
+    altura: 140px;
+    /* ancho: 100%; */
+}
+
+
+
+
+. pie de página-secciones-abajo{
+    /* borde: agua sólida; */
+    color de fondo: var(--faded-blue);
+    pantalla: flex;
+    justificar-contenido: espacio-alrededor;
+}
+
+dirección{
+    justify-content: flex-end;
+    color: var(--Texto-gris);
+    peso de fuente: 600;
+    tamaño de fuente: pequeño;
+}
+
+
+
+. up-info--uno{
+    ancho: 33%;
+}
+. up-info--dos{
+    ancho: 33%;
+}
+. up-info--dos{
+    ancho: 33%;
+}
+
+/* .footer-goal{
+ borde: verde pálido sólido;
+    
+} */
+
+. sections-up--info h6{
+    color: var(--mainTitle-blue);
+    tamaño de fuente: mediano;
+    margen-fondo: 10px;
+}
+
+. sections-up--info p{
+    tamaño de fuente: pequeño;
+    color: var(--Texto-gris);
+    peso de fuente: 500;
+    margen superior: 5px;
+}
+
+/* .up-info--three{
+ borde: saddlebrown sólido;
+} */
+
+. info-tres-contenedor{
+    pantalla: flex;
+    flex-direction: fila-reversa;
+    justificar-contenido: espacio-entre;
+    align-content: espacio entre;
+}
+
+. pie de página,
+. pie de página-empresa,
+. soporte de pie de página{
+    ancho: 170px;
+    justificar-contenido: espacio-entre;
+    align-content: espacio entre;
+}
